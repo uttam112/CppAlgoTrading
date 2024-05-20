@@ -69,6 +69,9 @@ void BotData::getCurrentAveragePrice(std::string const &symbol, double &price)
         .wait();
 }
 
+
+
+
 void BotData::getPriceAction(std::string const &symbol, std::string const &interval, long startTime, long endTime,
                              int limit, std::function<void(HistoricalData &)> callback)
 {
